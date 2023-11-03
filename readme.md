@@ -3,7 +3,7 @@
 Herzlich willkommen bei Matooo's Rep Counter & Timer App! Diese Anwendung ist perfekt für alle, die ihre Wiederholungen während eines bestimmten Zeitraums nachverfolgen möchten. Egal, ob du Fitnessübungen machst, produktiv arbeitest oder einfach eine organisierte Zeitplanung bevorzugst, diese App ist dein zuverlässiger Begleiter.
 
 ## Download:
-https://www.webintoapp.com/store/176944
+https://www.webintoapp.com/store/176968
 
 ## Funktionen
 
