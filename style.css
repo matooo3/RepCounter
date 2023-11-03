@@ -1,10 +1,20 @@
-.background-dark {
+body {
     background-color: rgb(41, 38, 38);
+}
+
+h2{
+    color:aliceblue;
+    font-family: sans-serif;
 }
 
 .center {
     display: flex;
     justify-content: center;
+}
+
+.centerLeft{
+    display: flex;
+    margin-left: 38.5rem;
 }
 
 .marginTop {
@@ -18,7 +28,7 @@
 }
 
 .timer {
-    margin-top: 5rem;
+    margin-top: 3.75rem;
     color: aliceblue;
     font-size: 4rem;
     font-family: sans-serif;
@@ -55,4 +65,12 @@
 
 #reset:hover{
     background-color: blueviolet;
+}
+
+
+#settings-button {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
 }
