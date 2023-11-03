@@ -1,0 +1,58 @@
+.background-dark {
+    background-color: rgb(41, 38, 38);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.marginTop {
+    margin-top: 7.5rem;
+}
+
+.counter {
+    color: aliceblue;
+    font-size: 7.5rem;
+    font-family: sans-serif;
+}
+
+.timer {
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+.button {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor:pointer;
+    padding: 0.7rem 2.1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.neg:hover{
+    background-color: red;
+}
+
+.pos:hover{
+    background-color: green;
+}
+
+#reset{
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-size: 1rem;
+    cursor:pointer;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#reset:hover{
+    background-color: blueviolet;
+}
