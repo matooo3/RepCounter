@@ -20,23 +20,24 @@ h3{
 
 .centerLeft{
     display: flex;
-    margin-left: 38.5rem;
+    margin-left: 3rem;
 }
 
 .marginTop {
     margin-top: 7.5rem;
 }
 
-.counter {
+.timer {
+    margin-top: 2rem;
     color: aliceblue;
-    font-size: 7.5rem;
+    font-size: 4rem;
     font-family: sans-serif;
 }
 
-.timer {
-    margin-top: 3.75rem;
+.counter {
+    margin-top: 5rem;
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 7.5rem;
     font-family: sans-serif;
 }
 
