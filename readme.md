@@ -16,6 +16,6 @@ Herzlich willkommen bei Matooo's Rep Counter & Timer App! Diese Anwendung ist pe
 
 ## Kontakt
 
-Für Anregungen oder bei Problemen stehe ich gerne zur Verfügung. Du kannst mich per E-Mail unter [deine.email@example.com] erreichen.
+Für Anregungen oder bei Problemen stehe ich gerne zur Verfügung. Du kannst mich per E-Mail unter [matze2948@gmail.com] erreichen.
 
 Vielen Dank, dass du Matooo's Rep Counter & Timer App verwendest! Bleib aktiv und zähl die Wiederholungen!
