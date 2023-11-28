@@ -24,13 +24,18 @@ function resetCounter(){
 let timer; // Variable, um Timer-Interval zu speichern
 let seconds = 0;
 let minutes = 0;
+let timerStarted = false;
 
 function startTimer() {
-    timer = setInterval(updateTimer, 1000); // Startet das Timer-Interval alle 1000ms (1 Sekunde)
+    if (!timerStarted) {
+        timer = setInterval(updateTimer, 1000); // Startet das Timer-Interval alle 1000ms (1 Sekunde)
+        timerStarted = true;
+    }
 }
 
 function stopTimer() {
     clearInterval(timer); // Stoppt das Timer-Interval
+    timerStarted = false;
 }
 
 function resetTimer() {
