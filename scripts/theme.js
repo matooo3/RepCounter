@@ -7,3 +7,13 @@ function toggleTheme() {
         linkElement.setAttribute("href", "style.css");
     }
 }
+
+function applyDarkTheme() {
+    const linkElement = document.getElementById("theme-style");
+    linkElement.setAttribute("href", "style.css");
+}
+
+function applyLightTheme() {
+    const linkElement = document.getElementById("theme-style");
+    linkElement.setAttribute("href", "light-theme.css");
+}
