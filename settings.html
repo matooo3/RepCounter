@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="scripts/theme.js"></script>
     <link rel="icon" href="img/heart.png" type="image/png">
 </head>
 <body>
@@ -21,8 +22,8 @@
     
     <h3 class="center">Theme:</h3>
     <div class="center">
-        <button class="buttonSmall">Light</button>
-        <button class="buttonSmall">Dark</button>
+        <button onclick="applyLightTheme()" class="buttonSmall">Light</button>
+        <button onclick="applyDarkTheme()" class="buttonSmall">Dark</button>
     </div>
     <h3 class="center">Information:</h3>
     <div class="center">
