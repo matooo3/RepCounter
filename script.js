@@ -1,12 +1,13 @@
 let counter = 0;
 
 function inc(times) {
+    playClickAudio();
     counter = counter + times;
     reps.innerHTML = counter; 
 }
 
 function dec(times) {
-
+    playClickAudio();
     if(counter - times > -1){
         counter = counter - times;
         
@@ -15,6 +16,7 @@ function dec(times) {
 }
 
 function resetCounter(){
+    playClickAudio();
     counter = 0;
     reps.innerHTML = counter;
 }
@@ -27,6 +29,7 @@ let minutes = 0;
 let timerStarted = false;
 
 function startTimer() {
+    playClickAudio();
     if (!timerStarted) {
         timer = setInterval(updateTimer, 1000); // Startet das Timer-Interval alle 1000ms (1 Sekunde)
         timerStarted = true;
@@ -34,11 +37,13 @@ function startTimer() {
 }
 
 function stopTimer() {
+    playClickAudio();
     clearInterval(timer); // Stoppt das Timer-Interval
     timerStarted = false;
 }
 
 function resetTimer() {
+    playClickAudio();
     stopTimer(); // Stoppt den Timer, bevor er zurückgesetzt wird
     seconds = 0;
     minutes = 0;
@@ -78,3 +83,7 @@ function handleClick(element, f) {
     f()
 }
 
+function playClickAudio() {
+    const click = document.getElementById("clickAudio");
+    click.play();
+}
