@@ -89,7 +89,20 @@ function multipleFunctions(functionList) {
     }
 }
 
+let soundIsOn = true
+
+function soundOff() {
+    soundIsOn = false;
+}
+
+function soundOn() {
+    soundIsOn = true;
+}
+
 function playClickAudio() {
-    const click = document.getElementById("clickAudio");
-    click.play();
+    if(soundIsOn) {
+        const click = document.getElementById("clickAudio");
+        click.play(); 
+    }
+    
 }
