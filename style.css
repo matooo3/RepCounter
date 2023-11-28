@@ -61,17 +61,20 @@ h3{
     border-radius: 0.5rem;
     border: none;
 }
-.buttonSmall:hover{
+.neg.active, .pos.active {
+    transition: background-color 1s ease; /* Übergang für 1 Sekunde */
+}
+.buttonSmall:active{
     color: aliceblue;
     background-color: blueviolet;
     border-radius: 2rem;
 }
 
-.neg:hover{
+.neg:active{
     background-color: red;
 }
 
-.pos:hover{
+.pos:active{
     background-color: green;
 }
 
@@ -85,7 +88,7 @@ h3{
     border: none;
 }
 
-#reset:hover{
+#reset:active{
     background-color: blueviolet;
 }
 

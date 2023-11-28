@@ -66,3 +66,15 @@ function padZero(value) {
     // Funktion, um sicherzustellen, dass Zahlen zweistellig dargestellt werden
     return value < 10 ? `0${value}` : value;
 }
+
+// Button-Animation:
+function handleClick(element, f) {
+    element.classList.add("active");
+
+    // Nach 1 Sekunde die Klasse "active" entfernen
+    setTimeout(function() {
+        element.classList.remove("active");
+    }, 1000);
+    f()
+}
+
