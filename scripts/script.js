@@ -83,6 +83,12 @@ function handleClick(element, f) {
     f()
 }
 
+function multipleFunctions(functionList) {
+    for (const func of functionList) {
+        func();
+    }
+}
+
 function playClickAudio() {
     const click = document.getElementById("clickAudio");
     click.play();

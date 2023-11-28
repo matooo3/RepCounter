@@ -10,20 +10,24 @@
     <link rel="icon" href="img/heart.png" type="image/png">
 </head>
 <body>
+    <audio id="clickAudio">
+        <source src="audio/click.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
     <a href="index.html">
         <img src="img/back.png" width="40rem" class="centerLeft" id="settings-button">
     </a>
     <h2 class="center">Settings</h2>
     <h3 class="center">Sounds:</h3>
     <div class="center">
-        <button class="buttonSmall">Off</button>
-        <button class="buttonSmall">On</button>
+        <button onclick="multipleFunctions([playClickAudio])" class="buttonSmall">Off</button>
+        <button onclick="multipleFunctions([playClickAudio])" class="buttonSmall">On</button>
     </div>
     
     <h3 class="center">Theme:</h3>
     <div class="center">
-        <button onclick="applyLightTheme()" class="buttonSmall">Light</button>
-        <button onclick="applyDarkTheme()" class="buttonSmall">Dark</button>
+        <button onclick="multipleFunctions([playClickAudio, applyLightTheme])" class="buttonSmall">Light</button>
+        <button onclick="multipleFunctions([playClickAudio, applyDarkTheme])" class="buttonSmall">Dark</button>
     </div>
     <h3 class="center">Information:</h3>
     <div class="center">
