@@ -80,7 +80,7 @@ function handleClick(element, f) {
     setTimeout(function() {
         element.classList.remove("active");
     }, 1000);
-    f()
+    f();
 }
 
 function multipleFunctions(functionList) {
@@ -89,19 +89,23 @@ function multipleFunctions(functionList) {
     }
 }
 
-let soundIsOn = true
+let soundIsOn = true;
 
 function soundOff() {
     soundIsOn = false;
+    saveSettings();
 }
 
 function soundOn() {
     soundIsOn = true;
+    saveSettings();
 }
 
 function playClickAudio() {
     if(soundIsOn) {
         const click = document.getElementById("clickAudio");
+        // Wiedergabe zurücksetzen, falls mehrmals button drücken
+        click.currentTime = 0;
         click.play(); 
     }
     

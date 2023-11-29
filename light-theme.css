@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5; /* Helle Hintergrundfarbe */
+    background-color: #d5d5d5; /* Helle Hintergrundfarbe */
 }
 
 h2 {
@@ -42,6 +42,8 @@ h3 {
 }
 
 .button {
+    background-color: #333;
+    color: #f5f5f5;
     font-size: 1.4rem;
     margin-top: 2rem;
     margin-left: 0.5rem;
@@ -53,6 +55,8 @@ h3 {
 }
 
 .buttonSmall {
+    background-color: #333;
+    color: #f5f5f5;
     font-size: 1.2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -60,8 +64,6 @@ h3 {
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     border: none;
-    background-color: #333;
-    color: #f5f5f5;
 }
 
 .neg.active,
@@ -69,7 +71,7 @@ h3 {
     transition: background-color 1s ease; /* Übergang für 1 Sekunde */
 }
 
-.buttonSmall:active {
+.buttonSmall:active, .locked {
     color: #333; /* Dunkle Textfarbe */
     background-color: #8a2be2; /* Blauviolette Hintergrundfarbe */
     border-radius: 2rem;
@@ -84,6 +86,8 @@ h3 {
 }
 
 #reset {
+    background-color: #333;
+    color: #f5f5f5;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
     font-size: 1rem;

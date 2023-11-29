@@ -64,7 +64,13 @@ h3{
 .neg.active, .pos.active {
     transition: background-color 1s ease; /* Übergang für 1 Sekunde */
 }
-.buttonSmall:active{
+.buttonSmall:active {
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 2rem;
+}
+
+.locked{
     color: aliceblue;
     background-color: blueviolet;
     border-radius: 2rem;
