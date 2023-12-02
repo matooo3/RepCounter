@@ -63,5 +63,8 @@ function loadLockedButtons(){
 
 function loadCounterData() {
     counter = parseInt(localStorage.getItem('counter'));
+    if(isNaN(counter)) {
+        counter = 0;
+    }
     reps.innerHTML = counter; 
 }
