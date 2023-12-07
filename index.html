@@ -49,5 +49,11 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/theme.js"></script>
     <script src="scripts/lockButton.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // This ensures the order of script execution doesn't matter.
+            loadSettings();  
+        });
+    </script>
 </body>
 </html>
